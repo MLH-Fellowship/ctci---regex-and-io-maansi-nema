@@ -1,0 +1,23 @@
+// Write the solution for "New Emails".
+
+// basic file operations
+#include <iostream>
+#include <fstream>
+using namespace std;
+
+int main () {
+  ofstream myfile;
+  myfile.open ("emails.csv");
+  ifstream testFile("emails.csv");
+  string token;
+  string line;
+
+  while(!testFile()) {
+
+    while(getline(testFile,token,',')){
+        line.replace(@mlh.io.);
+    }
+  myfile << "Writing this to a file.\n";
+  myfile.close();
+  return 0;
+}
